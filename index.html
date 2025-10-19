@@ -8,8 +8,11 @@
   </head>
   <body>
     <header>
-      <h1>Tristan Wede Lind</h1>
-      <p>Web Developer and Author</p>
+      <img id="header-logo" src="/img/lind.png" alt="Tristan Wede Lind logo" />
+      <div id="header-text">
+        <h1>Tristan Wede Lind</h1>
+        <p>Web Developer and Author</p>
+      </div>
       <select>
         <option value="en">EN</option>
         <option value="da">DA</option>
@@ -19,17 +22,19 @@
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">On tour</a></li>
-        <li><a href="#">Books</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#on-tour-section">On tour</a></li>
+        <li><a href="#books-section">Books</a></li>
+        <li><a href="#contact-section">Contact</a></li>
       </ul>
     </nav>
 
     <main>
       <section id="header-section">
-        <button id="call-to-action">New Release</button>
-        <h2>Advanced PHP: From Zero to Hero</h2>
-        <p>&copy; 2023 KEA Publishing</p>
+        <div id="header-section-text">
+          <button id="call-to-action">New Release</button>
+          <h2>Advanced PHP: From Zero to Hero</h2>
+          <p>&copy; 2023 KEA Publishing</p>
+        </div>
         <img
           src="/img/book_php_preview.png"
           alt="Book cover of Advanced PHP: From Zero to Hero"
@@ -37,64 +42,95 @@
       </section>
 
       <section id="information-section">
-        <p>
-          A Copenhagen native, Tristan Wede Lind has established himself as a
-          leading authority in web development, captivating audiences worldwide
-          with his profound knowledge of various technologies and methodologies.
-          With a career spanning over two decades, Lind has honed his skills
-          working for industry giants, where he contributed to cutting-edge
-          projects that pushed the boundaries of web development.
-        </p>
+        <div id="information-section-text">
+          <p>
+            A Copenhagen native, Tristan Wede Lind has established himself as a
+            leading authority in web development, captivating audiences
+            worldwide with his profound knowledge of various technologies and
+            methodologies. With a career spanning over two decades, Lind has
+            honed his skills working for industry giants, where he contributed
+            to cutting-edge projects that pushed the boundaries of web
+            development.
+          </p>
 
-        <p>
-          Lind's latest achievements showcase his commitment to advancing the
-          field. Through meticulous research and hands-on experience, he has
-          developed novel approaches to web design, user experience
-          optimization, and responsive development, ensuring that websites and
-          applications deliver immersive and intuitive experiences across
-          devices.
-        </p>
+          <p>
+            Lind's latest achievements showcase his commitment to advancing the
+            field. Through meticulous research and hands-on experience, he has
+            developed novel approaches to web design, user experience
+            optimization, and responsive development, ensuring that websites and
+            applications deliver immersive and intuitive experiences across
+            devices.
+          </p>
 
-        <p>
-          As an accomplished author, Lind has authored numerous critically
-          acclaimed books that serve as essential guides for aspiring web
-          developers and industry professionals alike. His publications, revered
-          for their clarity, depth, and practicality, have garnered widespread
-          acclaim and have been translated into multiple languages, solidifying
-          his reputation as an influential figure in the global web development
-          community.
-        </p>
+          <p>
+            As an accomplished author, Lind has authored numerous critically
+            acclaimed books that serve as essential guides for aspiring web
+            developers and industry professionals alike. His publications,
+            revered for their clarity, depth, and practicality, have garnered
+            widespread acclaim and have been translated into multiple languages,
+            solidifying his reputation as an influential figure in the global
+            web development community.
+          </p>
 
-        <article>
-          <blockquote>
-            <p>
-              Tristan Wede Lind's books on web development are an invaluable
-              resource for both novices and seasoned professionals. His
-              comprehensive yet accessible approach demystifies complex
-              concepts, providing practical guidance that translates directly
-              into real-world success. Lind's expertise shines through in every
-              page, making his works an indispensable addition to any
-              developer's library.
-            </p>
-          </blockquote>
-          <cite>The Tech Tribune</cite>
-        </article>
+          <article>
+            <blockquote>
+              <p>
+                Tristan Wede Lind's books on web development are an invaluable
+                resource for both novices and seasoned professionals. His
+                comprehensive yet accessible approach demystifies complex
+                concepts, providing practical guidance that translates directly
+                into real-world success. Lind's expertise shines through in
+                every page, making his works an indispensable addition to any
+                developer's library.
+              </p>
+            </blockquote>
+            <cite>The Tech Tribune</cite>
+          </article>
 
-        <p>
-          In addition to his professional accomplishments, Lind is known for his
-          dedication to sharing his expertise through conferences, workshops,
-          and online platforms. As a sought-after speaker, he has enlightened
-          audiences with his insightful talks, empowering developers to embrace
-          emerging technologies and adapt to the ever-evolving digital
-          landscape.
-        </p>
+          <p>
+            In addition to his professional accomplishments, Lind is known for
+            his dedication to sharing his expertise through conferences,
+            workshops, and online platforms. As a sought-after speaker, he has
+            enlightened audiences with his insightful talks, empowering
+            developers to embrace emerging technologies and adapt to the
+            ever-evolving digital landscape.
+          </p>
+        </div>
+
+        <div id="book-images" class="books-column">
+          <img
+            src="/img/book_css.png"
+            alt="Book cover of CSS for Developers: A Visual Journey"
+          />
+          <img
+            src="/img/book_html.png"
+            alt="Book cover of HTML5 for Beginners: Building the Web"
+          />
+          <img
+            src="/img/book_js.png"
+            alt="Book cover of Advanced JavaScript: Frameworkless"
+          />
+          <img
+            src="/img/book_programming.png"
+            alt="Book cover of Basic Programming: Algorithms and Beyond"
+          />
+        </div>
       </section>
 
       <section id="on-tour-section">
         <div id="on-tour-header">
           <h2>On tour</h2>
         </div>
-        <img src="/img/tristan_640.jpg" alt="Tristan Wede Lind" />
+        <img
+          id="on-tour-image-small"
+          src="/img/tristan_640.jpg"
+          alt="Tristan Wede Lind"
+        />
+        <img
+          id="on-tour-image-large"
+          src="/img/tristan_1280.jpg"
+          alt="Tristan Wede Lind"
+        />
         <ul>
           <li>
             <article>
@@ -263,7 +299,9 @@
             </article>
           </li>
         </ul>
-        <img class="arrow-up" src="/img/up-arrow.png" alt="Up arrow" />
+        <a href="#">
+          <img class="arrow-up" src="/img/up-arrow.png" alt="Up arrow" />
+        </a>
       </section>
 
       <section id="books-section">
@@ -277,17 +315,19 @@
                 src="/img/book_php.png"
                 alt="Book cover of Advanced PHP: From Zero to Hero"
               />
-              <h3>Advanced PHP <span>From Zero to Hero (2023)</span></h3>
-              <p>
-                "Advanced PHP: From Zero to Hero" is a groundbreaking book that
-                unlocks the full potential of PHP programming. With meticulous
-                detail, Lind guides readers through advanced concepts,
-                empowering them to master complex topics such as object-oriented
-                programming, database integration, and secure web application
-                development. This comprehensive guide is a must-have for
-                aspiring PHP developers seeking to elevate their skills to
-                heroic heights.
-              </p>
+              <div class="highlighted-book-description">
+                <h3>Advanced PHP <span>From Zero to Hero (2023)</span></h3>
+                <p>
+                  "Advanced PHP: From Zero to Hero" is a groundbreaking book
+                  that unlocks the full potential of PHP programming. With
+                  meticulous detail, Lind guides readers through advanced
+                  concepts, empowering them to master complex topics such as
+                  object-oriented programming, database integration, and secure
+                  web application development. This comprehensive guide is a
+                  must-have for aspiring PHP developers seeking to elevate their
+                  skills to heroic heights.
+                </p>
+              </div>
             </article>
           </li>
 
@@ -297,16 +337,18 @@
                 src="/img/book_css.png"
                 alt="Book cover of CSS for Developers: A Visual Journey"
               />
-              <h3>CSS for Developers <span>A Visual Journey (2022)</span></h3>
-              <p>
-                "CSS for Developers: A Visual Journey" offers an immersive
-                exploration of CSS that transcends mere syntax. Through vivid
-                illustrations and practical examples, Lind demystifies the
-                intricacies of CSS, equipping developers with the tools to craft
-                stunning, responsive designs. This visual masterpiece is an
-                indispensable companion for developers seeking to elevate their
-                CSS skills and create visually captivating websites.
-              </p>
+              <div class="highlighted-book-description">
+                <h3>CSS for Developers <span>A Visual Journey (2022)</span></h3>
+                <p>
+                  "CSS for Developers: A Visual Journey" offers an immersive
+                  exploration of CSS that transcends mere syntax. Through vivid
+                  illustrations and practical examples, Lind demystifies the
+                  intricacies of CSS, equipping developers with the tools to
+                  craft stunning, responsive designs. This visual masterpiece is
+                  an indispensable companion for developers seeking to elevate
+                  their CSS skills and create visually captivating websites.
+                </p>
+              </div>
             </article>
           </li>
 
@@ -316,17 +358,19 @@
                 src="/img/book_js.png"
                 alt="Book cover of Advanced JavaScript: Frameworkless"
               />
-              <h3>Advanced JavaScript <span>Frameworkless (2021)</span></h3>
-              <p>
-                In "Advanced JavaScript: Frameworkless," Tristan Wede Lind
-                revolutionizes the approach to JavaScript development. Breaking
-                free from the confines of frameworks, Lind delves into the core
-                principles and advanced techniques that empower developers to
-                create robust, scalable, and framework-independent JavaScript
-                applications. This essential guide unveils the true potential of
-                JavaScript, transforming developers into true masters of the
-                language.
-              </p>
+              <div class="highlighted-book-description">
+                <h3>Advanced JavaScript <span>Frameworkless (2021)</span></h3>
+                <p>
+                  In "Advanced JavaScript: Frameworkless," Tristan Wede Lind
+                  revolutionizes the approach to JavaScript development.
+                  Breaking free from the confines of frameworks, Lind delves
+                  into the core principles and advanced techniques that empower
+                  developers to create robust, scalable, and
+                  framework-independent JavaScript applications. This essential
+                  guide unveils the true potential of JavaScript, transforming
+                  developers into true masters of the language.
+                </p>
+              </div>
             </article>
           </li>
 
@@ -336,18 +380,20 @@
                 src="/img/book_programming.png"
                 alt="Book cover of Basic Programming: Algorithms and Beyond"
               />
-              <h3>
-                Basic Programming <span>Algorithms and Beyond (2017)</span>
-              </h3>
-              <p>
-                "Basic Programming: Algorithms and Beyond" is a definitive guide
-                that demystifies the fundamentals of programming. With clarity
-                and precision, Lind introduces readers to essential concepts
-                such as variables, loops, and conditionals, while also delving
-                into the world of algorithms. This comprehensive resource equips
-                aspiring programmers with the foundational knowledge needed to
-                embark on a successful coding journey.
-              </p>
+              <div class="highlighted-book-description">
+                <h3>
+                  Basic Programming <span>Algorithms and Beyond (2017)</span>
+                </h3>
+                <p>
+                  "Basic Programming: Algorithms and Beyond" is a definitive
+                  guide that demystifies the fundamentals of programming. With
+                  clarity and precision, Lind introduces readers to essential
+                  concepts such as variables, loops, and conditionals, while
+                  also delving into the world of algorithms. This comprehensive
+                  resource equips aspiring programmers with the foundational
+                  knowledge needed to embark on a successful coding journey.
+                </p>
+              </div>
             </article>
           </li>
 
@@ -357,16 +403,18 @@
                 src="/img/book_js_basic.png"
                 alt="Book cover of Basic JavaScript: Tweaking the Web"
               />
-              <h3>Basic JavaScript <span>Tweaking the Web (2017)</span></h3>
-              <p>
-                "Basic JavaScript: Tweaking the Web" is a transformative book
-                that demystifies the building blocks of JavaScript. With
-                practical examples and step-by-step instructions, Lind empowers
-                readers to enhance websites with interactive elements and
-                dynamic functionalities. This essential guide unlocks the power
-                of JavaScript, enabling readers to tweak the web and create
-                engaging user experiences.
-              </p>
+              <div class="highlighted-book-description">
+                <h3>Basic JavaScript <span>Tweaking the Web (2017)</span></h3>
+                <p>
+                  "Basic JavaScript: Tweaking the Web" is a transformative book
+                  that demystifies the building blocks of JavaScript. With
+                  practical examples and step-by-step instructions, Lind
+                  empowers readers to enhance websites with interactive elements
+                  and dynamic functionalities. This essential guide unlocks the
+                  power of JavaScript, enabling readers to tweak the web and
+                  create engaging user experiences.
+                </p>
+              </div>
             </article>
           </li>
 
@@ -376,96 +424,127 @@
                 src="/img/book_front_end.png"
                 alt="Book cover of Front-End Web Development: A Nice Introduction"
               />
-              <h3>
-                Front-End Web Development
-                <span>A Nice Introduction (2016)</span>
-              </h3>
-              <p>
-                "Front-End Web Development: A Nice Introduction" crafts a
-                captivating journey into the world of front-end development.
-                Lind artfully introduces readers to HTML, CSS, and JavaScript,
-                unraveling the secrets of creating visually stunning and
-                interactive websites. With its approachable style and
-                comprehensive coverage, this book is the perfect starting point
-                for aspiring front-end developers.
-              </p>
+              <div class="highlighted-book-description">
+                <h3>
+                  Front-End Web Development
+                  <span>A Nice Introduction (2016)</span>
+                </h3>
+                <p>
+                  "Front-End Web Development: A Nice Introduction" crafts a
+                  captivating journey into the world of front-end development.
+                  Lind artfully introduces readers to HTML, CSS, and JavaScript,
+                  unraveling the secrets of creating visually stunning and
+                  interactive websites. With its approachable style and
+                  comprehensive coverage, this book is the perfect starting
+                  point for aspiring front-end developers.
+                </p>
+              </div>
             </article>
           </li>
         </ul>
-        <img class="arrow-up" src="/img/up-arrow.png" alt="Up arrow" />
+        <a href="#">
+          <img class="arrow-up" src="/img/up-arrow.png" alt="Up arrow" />
+        </a>
       </section>
 
       <section id="contact-section">
         <div id="contact-header">
           <h2>Contact</h2>
         </div>
-        <article>
-          <img src="/img/victoria.png" alt="Victoria Marsh" />
-          <h3>Publishing</h3>
-          <p>Victoria Marsh (Editor)</p>
-          <p>
-            <a href="mailto:victoriamarsh@keapublishing.com"
-              >victoriamarsh@keapublishing.com</a
-            >
-          </p>
-          <p>Phone: <a href="#">(+44) 079 7502 0028</a></p>
-        </article>
+        <div id="contact-container">
+          <div id="contact-info">
+            <article>
+              <img src="/img/victoria.png" alt="Victoria Marsh" />
+              <div class="contact-text">
+                <h3>Publishing</h3>
+                <p>Victoria Marsh (Editor)</p>
+                <p>
+                  <a href="mailto:victoriamarsh@keapublishing.com"
+                    >victoriamarsh@keapublishing.com</a
+                  >
+                </p>
+                <p>Phone: <a href="#">(+44) 079 7502 0028</a></p>
+              </div>
+            </article>
 
-        <article>
-          <img src="/img/elly.png" alt="Elly Houthuijzen" />
-          <h3>Booking</h3>
-          <p>Elly Houthuijzen (Agent)</p>
-          <p><a href="mailto:elly@houthuijzen.com">elly@houthuijzen.com</a></p>
-          <p>Phone: <a href="#">(+31) 06-42821232</a></p>
-        </article>
+            <div id="booking">
+              <article>
+                <img src="/img/elly.png" alt="Elly Houthuijzen" />
+                <div class="contact-text">
+                  <h3>Booking</h3>
+                  <p>Elly Houthuijzen (Agent)</p>
+                  <p>
+                    <a href="mailto:elly@houthuijzen.com"
+                      >elly@houthuijzen.com</a
+                    >
+                  </p>
+                  <p>Phone: <a href="#">(+31) 06-42821232</a></p>
+                </div>
+              </article>
 
-        <fieldset>
-          <legend>Request booking</legend>
+              <fieldset>
+                <legend>Request booking</legend>
 
-          <label for="name">Name</label>
-          <input type="text" name="name" />
+                <label for="name">Name</label>
+                <input type="text" name="name" />
 
-          <label for="email">Email</label>
-          <input type="email" name="email" />
+                <label for="email">Email</label>
+                <input type="email" name="email" />
 
-          <label for="enquiry">Enquiry</label>
-          <textarea name="enquiry" rows="4"></textarea>
+                <label for="enquiry">Enquiry</label>
+                <textarea name="enquiry" rows="4"></textarea>
 
-          <button type="submit">Submit</button>
-        </fieldset>
-        <img class="arrow-up" src="/img/up-arrow.png" alt="Up arrow" />
+                <button type="submit">Submit</button>
+              </fieldset>
+            </div>
+          </div>
+          <div id="conference-image-container">
+            <img
+              id="conference-image"
+              src="/img/conference.jpg"
+              alt="Conference audience"
+            />
+          </div>
+        </div>
+        <a href="#">
+          <img class="arrow-up" src="/img/up-arrow.png" alt="Up arrow" />
+        </a>
       </section>
     </main>
 
     <footer>
-      <div id="footer-logo">
-        <img src="/img/keapublishing.png" alt="KEA Publishing" />
-        <p>KEA Publishing, Inc.</p>
-      </div>
+      <div>
+        <div>
+          <div id="footer-logo">
+            <img src="/img/keapublishing.png" alt="KEA Publishing" />
+            <p>KEA Publishing, Inc.</p>
+          </div>
 
-      <div id="social-media-icons">
-        <img src="/img/twitter.png" alt="Twitter" />
-        <img src="/img/linkedin.png" alt="LinkedIn" />
-        <img src="/img/facebook.png" alt="Facebook" />
-      </div>
+          <div id="social-media-icons">
+            <img src="/img/twitter.png" alt="Twitter" />
+            <img src="/img/linkedin.png" alt="LinkedIn" />
+            <img src="/img/facebook.png" alt="Facebook" />
+          </div>
+        </div>
 
-      <div id="footer-links">
-        <p><a href="#">Privacy Policy</a></p>
-        <p><a href="#">Terms of Service</a></p>
-        <p><a href="#">Cookie Policy</a></p>
-      </div>
+        <div id="footer-links">
+          <p><a href="#">Privacy Policy</a></p>
+          <p><a href="#">Terms of Service</a></p>
+          <p><a href="#">Cookie Policy</a></p>
+        </div>
 
-      <div id="credits">
-        <p>Person pictures by <span>Matheus Bertelli</span></p>
-        <p>Book covers pictures by <span>123RF</span></p>
-        <p>SoMe icons generated with <span>Powr.io</span></p>
-        <p>Microphone icon by <span>Freepik</span></p>
-        <p>Up arrow icon by <span>Yogi Aprelliyanto</span></p>
-        <p>Texts generated by <span>ChatGPT</span></p>
+        <div id="credits">
+          <p>Person pictures by <span>Matheus Bertelli</span></p>
+          <p>Book covers pictures by <span>123RF</span></p>
+          <p>SoMe icons generated with <span>Powr.io</span></p>
+          <p>Microphone icon by <span>Freepik</span></p>
+          <p>Up arrow icon by <span>Yogi Aprelliyanto</span></p>
+          <p>Texts generated by <span>ChatGPT</span></p>
+        </div>
       </div>
 
       <div id="copyright">
-      <p>&copy; 2023 KEA Development</p>
+        <p>&copy; 2023 KEA Development</p>
       </div>
     </footer>
   </body>
